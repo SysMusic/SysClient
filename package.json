@@ -101,7 +101,7 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "SysWhiteDev",
+      "owner": "SysMusic",
       "repo": "SysClient"
     }
   },
