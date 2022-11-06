@@ -101,13 +101,13 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "jeffvli",
-      "repo": "SysMusic"
+      "owner": "SysWhiteDev",
+      "repo": "SysClient"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffvli/SysMusic.git"
+    "url": "git+https://github.com/SysMusic/SysClient.git"
   },
   "author": {
     "name": "jeffvli",
