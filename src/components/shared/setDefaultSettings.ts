@@ -9,7 +9,7 @@ const setDefaultSettings = (force: boolean) => {
   }
 
   if (force || !settings.hasSync('discord.clientId')) {
-    settings.setSync('discord.clientId', '923372440934055968');
+    settings.setSync('discord.clientId', '1038592649030017035');
   }
 
   if (force || !settings.hasSync('discord.serverImage')) {

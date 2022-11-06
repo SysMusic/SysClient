@@ -342,7 +342,7 @@ export const mockSettings = {
   discord: {
     enabled: true,
     applicationId: '',
-    clientId: '923372440934055968',
+    clientId: '1038592649030017035',
     serverImage: false,
   },
   obs: {
