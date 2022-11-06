@@ -1,0 +1,23 @@
+{
+  "name": "SysMusic",
+  "productName": "SysMusic",
+  "version": "0.0.1",
+  "description": "A full-featured Subsonic/Jellyfin compatible desktop client",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "SysWhite",
+    "url": "https://github.com/SysWhiteDev"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@nodert-win10-au/windows.foundation": "^0.4.4",
+    "@nodert-win10-au/windows.media": "^0.4.4",
+    "@nodert-win10-au/windows.media.playback": "^0.4.4",
+    "@nodert-win10-au/windows.storage.streams": "^0.4.4",
+    "mpris-service": "^2.1.2"
+  }
+}
